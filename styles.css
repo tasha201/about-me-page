@@ -171,8 +171,8 @@ p {
   height: 240px;
 }
 
-@media (max-width: 380px) {
-    .introduction {
+@media (max-width: 375px) {
+    h2 {
         font-size: 32px;
     }
     h1 {
@@ -190,5 +190,19 @@ p {
     .about-link, .contact-link {
         font-size: 16px;
     }
-    
+    .homepage-link {
+        font-size: 16px;
+    }
+    .pro-1 {
+        height: 200px;
+    }
+    .pro-2 {
+        height: 230px;
+    }
+    .pro-3 {
+        height: 160px;
+    }
+    #contact a {
+        font-size: 20px;
+    }
 }
